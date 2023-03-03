@@ -34,3 +34,23 @@
     margin-bottom: .7rem;
     margin-left: .7rem;
 }
+
+@media screen and (min-width: 1024px) {
+    .head {
+        flex-direction: row;
+        justify-content: space-between;
+        border: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .llamada {
+        background-image: url(..//img/bg-intro.jpg);
+        background-size: cover;
+        margin-top: 8.25rem;
+    }
+    .llamada__titulo {
+        font-size: 3.25rem;
+        margin-bottom: 2rem;
+    }
+}
